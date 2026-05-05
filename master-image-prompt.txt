@@ -77,10 +77,10 @@ Logos are not part of title or header composition.
 RULES:
 - Do not place any brand logo near the title area
 - Do not place any logo in top header zones
-- Reserve logos for the footer branding block only
+- Do not render any footer branding or logos — footer will be added programmatically after generation
 
 FAIL CONDITION:
-If a logo appears in header or title regions, remove it and keep branding only in footer
+If a logo appears anywhere in the image, remove it completely
 
 INPUT FORMAT:
 
@@ -1313,68 +1313,27 @@ If design looks too plain:
 
 Do this by visual treatment, not by adding more content.
 
-STEP 9: BRANDING ENGINE (STRICT)
+STEP 9: FOOTER SPACE RESERVATION (STRICT)
 
-FOOTER ONLY (STRICT - CENTER CARD STYLE)
+Do NOT render any footer, logo, branding, or text in the bottom area.
+The footer branding will be composited programmatically after image generation.
 
-Place a compact, centered footer card at the bottom.
+RESERVED ZONE (BOTTOM)
+- Height: 80px from bottom edge
+- Full canvas width
+- Must be left completely empty — no content, no elements, no decorations
 
-POSITION
-- Horizontally centered
-- Bottom margin: 24px-32px from canvas edge (not touching edge)
+RULES
+- No MuleCraft logo
+- No MuleSoft Partner logo
+- No Salesforce logo
+- No footer card or container
+- No text in this zone
+- No arrows, connectors, or decorative elements entering this zone
+- Background color in reserved zone must match the overall canvas background (seamless blend)
 
-SIZE (REDUCED - MANDATORY)
-- Width: 24%-30% of canvas (MAX 30% STRICT)
-- Height: 60-70px
-- Do not scale based on content
-
-CONTAINER STYLE
-- Background: #FFFFFF or #F9FAFB
-- Border: subtle #E5E7EB
-- Border radius: 10-12px
-- Shadow: very soft, low opacity (no heavy floating effect)
-- Padding: 6-10px (tight spacing)
-
-INTERNAL LAYOUT (HORIZONTAL - CLEAN AND COMPACT)
-
-LEFT
-- Mulecraft logo (small, proportional) - Row 1
-- Text: MuleCraft (aligned horizontally with logo)
-- Tagline (small size): Row 2
-  Imagine . Innovate . Impact
-
-RIGHT
-- MuleSoft Partner logo
-- Salesforce Partner logo
-- Equal spacing, small scale
-
-SPACING RULES
-- Tight spacing between elements
-- All items vertically centered
-- No oversized logos
-- Maintain proportional scaling
-
-STRICT RULES
-- Footer must not span full width
-- Footer must not look like a banner
-- Footer must not dominate visual hierarchy
-
-FOOTER DOMINANCE RULE (CRITICAL)
-
-- Footer must occupy less than 10% of total visual attention
-- Footer must be visually lighter than any system layer
-- If footer competes with main content, reduce footer size by 30%
-- Max footer width is 30% (strict)
-- Do not scale footer based on content length
-
-ISOLATION RULE
-- No arrows, connectors, or flow elements should touch footer
-- Footer must remain visually independent
-
-LOGO RULE
-- Use uploaded logos exactly, footer branding block only
-- No distortion
-- Maintain aspect ratio
+FAIL CONDITION:
+If any element appears within the bottom 80px of the canvas, remove it
 
 STEP 11: HARD CONSTRAINT FIXES
 
@@ -1532,8 +1491,9 @@ Whitespace:
 Background:
 [Mode-based]
 
-Footer:
-[Strict Mulecraft footer]
+Footer Zone:
+- Bottom 80px: empty reserved space — clean canvas background, no content
+- Footer branding will be added programmatically after generation
 
 Final Output Target:
 - SYSTEM -> clean SaaS infographic
@@ -1568,8 +1528,8 @@ FINAL VALIDATION CHECKLIST
 - Visual richness feels premium without clutter
 - Orientation matches explicit user request
 - Resolution matches orientation mapping
-- Footer occupies less than 10% visual attention
-- Footer width is not above 30%
+- Bottom 80px is completely empty (reserved for programmatic footer)
+- No logos or branding marks anywhere in the image
 
 SCROLL STOPPER TEST
 
@@ -1713,11 +1673,11 @@ Avoid:
 - AI-style energy beams
 - Aggressive particle effects
 
-STEP F9: FOOTER
+STEP F9: FOOTER SPACE RESERVATION
 
-- Same Mulecraft footer (centered, compact)
-- Width max 30% of canvas
-- Not dominant
+- Do NOT render any footer, logo, or branding
+- Bottom 80px of canvas must remain empty — clean background only
+- Footer will be composited programmatically after generation
 
 INSTRUCTION LANGUAGE GUARD
 
@@ -1794,8 +1754,8 @@ Background:
 - Subtle cultural texture at very low opacity
 - No tech patterns
 
-Footer:
-- Mulecraft footer (centered, compact, under 30% canvas width)
+Footer Zone:
+- Bottom 80px: empty reserved space — clean canvas background, no content, no logos
 
 Final Output Target: Premium cultural poster, emotional and minimal, top 1% LinkedIn festival visual
 
@@ -1805,6 +1765,6 @@ FESTIVAL VALIDATION CHECKLIST
 - Background is warm and cultural, not technical
 - Text is minimal (title + optional subtitle only)
 - Lighting is soft and ambient, not neon or electric
-- Footer is compact and non-dominant
+- Bottom 80px is empty (reserved for programmatic footer)
 - Canvas feels warm, elegant, and human
 - Understandable emotion in less than 2 seconds
