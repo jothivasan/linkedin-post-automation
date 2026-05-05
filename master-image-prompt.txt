@@ -552,24 +552,59 @@ Break linear stacking pattern.
 FOCAL DOMINANCE ENGINE
 
 FOCAL DOMINANCE RULE (MANDATORY)
-- One element must control 30%-40% visual attention
-- Secondary elements must not compete
-- If multiple focal points exist, merge or remove
+- One element must be unmistakably the core of the design
+- Secondary elements must visually recede — they support, never compete
+- If multiple elements feel equal in weight, merge or demote all but one
 
 FAIL CONDITION
-If viewer cannot identify focal point in 2 seconds, redesign.
+If viewer cannot instantly feel "this is the core system" within 2 seconds, redesign.
+
+---
+
+FOCAL AMPLIFICATION RULE (CRITICAL)
+
+The dominant element must be amplified through three layers simultaneously:
+
+LAYER 1 — SIZE DOMINANCE
+- Focal element must be clearly and visibly larger than surrounding elements
+- Not marginally larger — noticeably larger
+- Supporting elements should feel smaller by comparison, not equal
+
+LAYER 2 — DEPTH AND GLOW CONTRAST
+- Apply a subtle outer glow on the focal element only
+- Apply a stronger shadow than any other card on the canvas
+- Use a slightly richer background fill (soft gradient, not flat)
+- Do NOT apply glow or deep shadow to any other element — contrast is the effect
+
+LAYER 3 — VISUAL GRAVITY (BACKGROUND EMPHASIS)
+- The background directly behind the focal element should be subtly lighter or softer
+- Create a faint radial bloom or soft halo in the background at the focal point
+- This makes the focal element feel like it is drawing light toward it
+- Other zones should feel slightly receded or neutral by comparison
+
+COMBINED EFFECT:
+The viewer must instantly feel — "this is the core system" — before reading a single word.
+
+FAIL CONDITION:
+If all elements feel equal in size, glow, and background treatment — focal amplification has failed. Redesign focal treatment before output.
+
+---
 
 FOCAL VISUAL BOOST
 
-The main element must stand out using one:
-- Slight outer glow
-- Stronger shadow
-- Accent border
+Apply all three to the focal card only:
+- Clearly larger than peer cards
+- Subtle outer glow (soft, not neon)
+- Deeper shadow with slight elevation feel
+- Richer background fill (soft gradient vs flat white)
+- Optional: faint background radial bloom behind it
 
-Do not apply this to all cards.
+Do NOT apply any of these to supporting cards.
 
 Goal:
-Guide attention immediately.
+Instant visual hierarchy — focal element commands attention without competing labels.
+
+---
 
 COMPARISON FOCAL RULE
 
@@ -578,16 +613,17 @@ For comparison visuals, choose one focal anchor:
 - Right core engine
 - Center insight column
 
-Dominance method:
-- Larger size OR
-- Stronger shadow OR
-- Accent glow
+Amplification method (apply all three layers):
+- Noticeably larger block
+- Stronger glow + deeper shadow
+- Softer background emphasis behind it
 
-Other elements must support the focal anchor.
+All other elements must visually recede around the focal anchor.
 
 Avoid:
-- overcrowding
-- under-explaining
+- Two elements of equal visual weight
+- Symmetric glow applied to both sides
+- Balanced size that creates no clear winner
 
 STEP 2.5: TITLE INTELLIGENCE ENGINE (MODE-AWARE)
 
@@ -692,9 +728,45 @@ Differentiate hierarchy using:
 - color contrast
 
 SPACING RHYTHM SYSTEM
-- 40px+ between major zones
-- 24px between groups
-- 16px inside groups
+- Strong visual separation between major zones — enough breathing room to feel distinct
+- Clear gap between groups — grouped elements feel clustered, not scattered
+- Tight but comfortable spacing inside groups — elements feel related, not cramped
+
+---
+
+HIERARCHY VARIATION RULE (MANDATORY)
+
+Do NOT render multiple elements of the same type at equal size, weight, and visual importance.
+
+THE "IDENTICAL BOXES" PROBLEM:
+If a design has 3 consumers, 4 services, or 2 producers all at equal size and weight → it looks flat, template-generated, and uninteresting.
+
+SOLUTION — STAGGER IMPORTANCE:
+
+For any group of 2 or more similar elements, apply one of these patterns:
+
+PATTERN A — PRIMARY + SECONDARY
+- 1 element is primary: larger, slightly stronger shadow, richer fill
+- Remaining elements are secondary: smaller, lighter, more receded
+
+PATTERN B — IMPORTANCE GRADIENT
+- First element in group: full size, full color weight
+- Second element: 85% size, slightly reduced opacity or lighter border
+- Third element: 75% size, clearly lighter — supporting role only
+
+PATTERN C — ROLE DIFFERENTIATION
+- Assign different roles to similar elements (e.g., one is "real-time", one is "async", one is "batch")
+- Different roles = different visual treatment (icon, accent color, or size)
+
+RULES:
+- Never render 3 or more identical-looking boxes in a row
+- At least one element in every group must feel more important than the others
+- Size, shadow depth, and fill richness are the tools — not just color
+
+FAIL CONDITION:
+If any group of elements looks like copy-pasted identical cards → apply hierarchy variation before output
+
+---
 
 VISUAL CONTRAST RULE
 
@@ -1173,13 +1245,13 @@ Example:
 - Right = control panel
 
 Maintain:
-- Equal spacing between peer elements inside a group
-- Consistent padding inside cards
+- Equal visual rhythm between peer elements inside a group
+- Comfortable, consistent padding inside cards — never tight or clipped
 
 Avoid:
 - forcing entire canvas into one alignment direction
 - random offsets inside groups
-- uneven intra-layer spacing
+- uneven visual rhythm inside layers
 - floating elements
 
 FLOW FLEXIBILITY RULE
@@ -1231,7 +1303,7 @@ If yes:
 STEP 8: BACKGROUND AND DEPTH ENGINE
 
 SYSTEM MODE
-- Gradient + subtle grid/dots (below 10% prominence)
+- Gradient + subtle pattern (below 10% prominence)
 
 CREATIVE MODE
 - Cultural texture overlays (kolam, floral, mandala)
@@ -1243,61 +1315,195 @@ STORY MODE
 HYBRID MODE
 - Clean gradient with restrained motif overlays
 
+---
+
+BACKGROUND IDENTITY RULE (MANDATORY)
+
+Every background must have a distinct visual identity — not a generic gradient.
+
+A background has identity when it has ALL THREE of:
+1. A directional gradient (corner-to-corner or edge sweep — not flat center-to-edge)
+2. A secondary texture layer at very low opacity (curved lines, soft grid, abstract organic shapes, or subtle noise)
+3. A focal depth feature — something that makes the background feel spatially intentional
+
+Generic gradient alone = rejected. Apply all three layers.
+
+---
+
+RADIAL FOCUS RULE (CRITICAL)
+
+Behind the focal element, create a subtle radial emphasis in the background:
+- Soft radial bloom: a very faint lighter zone or gentle glow centered behind the focal card
+- This does not need to be bright — it can be as subtle as a 5–8% brightness shift
+- The effect: focal element appears to sit in the "light zone" of the canvas
+- All other areas of the background are slightly cooler or more receded
+
+This single technique increases perceived depth and quality significantly.
+
+Apply to SYSTEM and HYBRID modes.
+Do not apply to CREATIVE festival mode (use warm ambient glow instead).
+
+---
+
 BACKGROUND ENRICHMENT RULE
 
-Background must include:
-- Soft gradient (not flat color)
-- Subtle pattern at very low opacity:
-  -> curved lines OR
-  -> grid dots OR
-  -> abstract shapes
-- Depth layering:
-  -> faint radial light
-  -> optional soft noise texture
+Background must include all three layers simultaneously:
+
+LAYER 1 — DIRECTIONAL GRADIENT
+- Not flat, not centered — pull gradient from one corner to the opposite
+- Example: top-left lighter → bottom-right slightly deeper
+- This creates natural visual movement
+
+LAYER 2 — SECONDARY TEXTURE (very low opacity)
+Choose one:
+- Soft curved vector lines (flowing, organic)
+- Faint abstract polygon shapes
+- Subtle dot grid (low contrast)
+- Light circuit trace lines (SYSTEM mode only)
+- All at opacity 4–8% maximum — felt, not seen
+
+LAYER 3 — FOCAL DEPTH FEATURE
+Choose one:
+- Faint radial bloom behind main element
+- Subtle light ray from top corner (very low opacity)
+- Soft inner shadow at canvas edges (vignette effect, very light)
 
 Avoid:
 - plain white background
-- empty flat canvas
+- flat single-color canvas
+- generic centered gradient with no texture or depth feature
 
 Goal:
-Background should feel alive but not distracting.
+Background has a rich visual identity — feels crafted, not generated.
+
+---
 
 DEPTH RULE (CRITICAL)
 Foreground must feel embedded into background using:
-- soft shadows (low opacity)
-- subtle blending
-- edge softness
-- consistent lighting direction
+- soft shadows (low opacity, consistent direction)
+- subtle blending at card edges
+- consistent lighting direction across all elements
 
 PREMIUM DEPTH RULE
 
-Every major element must have depth:
-- Soft shadow (low opacity)
-- Subtle elevation difference
-- Light gradient fill (not flat white)
+Every major element must have depth layering:
+- Soft shadow (consistent light direction)
+- Subtle elevation difference between layers
+- Light gradient fill on cards (not flat white)
+- Focal element has the deepest shadow and richest fill
 
 Avoid:
 - flat white cards
 - zero-shadow elements
+- same shadow depth on all cards
 
 Goal:
-Create layered UI feel similar to premium SaaS dashboards.
+Create a layered elevation system — focal card feels closest, background feels furthest.
+
+---
 
 CARD ENHANCEMENT RULE
 
 Cards must not be plain rectangles.
 
 Apply:
-- Soft gradient background (very subtle)
-- Border (1px soft color)
-- Shadow (blurred, low opacity)
-- Slight glow for focal card
+- Soft gradient background fill (very subtle — slight color shift from top to bottom)
+- Thin border (soft color, not harsh)
+- Shadow (blurred, directional, low opacity)
+- Inner highlight: very faint top edge reflection (optional, premium feel)
 
-Optional:
-- inner highlight or light reflection
+Focal card only:
+- Slightly richer gradient fill
+- Deeper shadow
+- Subtle outer glow
 
 Goal:
-Cards feel tactile and premium.
+Cards feel tactile and elevated — like premium SaaS UI components.
+
+---
+
+DETAIL ENRICHMENT RULE (MANDATORY)
+
+Every card, block, and panel must carry visual richness through micro-detail — not through more content.
+
+---
+
+SHADOW SYSTEM
+
+Apply a layered shadow system — not one flat shadow applied everywhere:
+
+- Focal card: deep soft shadow (high blur, low opacity) — creates strong elevation
+- Primary cards: medium shadow — clearly elevated off background
+- Secondary cards: light shadow — subtle lift, not flat
+- Background panels: near-zero shadow — they sit on the canvas, not above it
+
+Rules:
+- All shadows must follow one consistent light direction (top-left is default)
+- Shadow color must be tinted (not pure black) — use the dominant background hue darkened
+- No card should have zero shadow unless it IS the background
+
+---
+
+GRADIENT CARD FILL SYSTEM
+
+Cards must not use flat white or flat color fills.
+
+Apply to every card:
+- Subtle gradient fill: top slightly lighter, bottom slightly richer (or reverse)
+- The shift should be barely visible but felt — 3–6% brightness difference is enough
+- Focal card: slightly more pronounced gradient — it should feel warmer or richer
+- Secondary cards: very subtle gradient — nearly flat but not completely
+
+Avoid:
+- Pure #FFFFFF fills
+- Uniform identical fills across all cards
+- High-contrast gradients that distract from content
+
+---
+
+LAYERED UI DEPTH SYSTEM
+
+The canvas must feel like a multi-layer UI — not a flat poster.
+
+Define 4 visual depth layers:
+
+LAYER 0 — Canvas background (gradient + texture)
+LAYER 1 — Background panels or zone containers (very faint shadow, light fill)
+LAYER 2 — Primary cards and flow blocks (clear shadow, gradient fill)
+LAYER 3 — Focal element (deepest shadow, richest fill, optional glow)
+
+Rules:
+- Each layer must feel visually higher than the one beneath it
+- Use shadow depth and fill richness — not color — to separate layers
+- Do not collapse all elements onto the same visual plane
+
+---
+
+DEPTH VARIATION RULE
+
+Not all cards at the same depth level should look identical.
+
+Introduce subtle variation:
+- One card slightly bolder fill than its peers
+- One card with a slightly stronger border accent
+- One card with a faint inner top-edge highlight (glass effect, very subtle)
+- Vary corner radius slightly between card types (e.g., process cards rounder than output cards)
+
+This variation must feel intentional and systematic — not random.
+
+---
+
+ANTI-FLAT RULE
+
+NEVER produce:
+- Cards with flat white fill and no shadow
+- Uniform cards that are visually indistinguishable from each other
+- A canvas that looks like a wireframe or skeleton layout
+- Elements that appear to float on a blank background with no depth
+
+If any of these are present → apply shadow, gradient fill, and depth variation before output.
+
+---
 
 ANTI-STERILE RULE
 
@@ -1305,11 +1511,14 @@ Design must not feel:
 - empty
 - flat
 - lifeless
+- template-generated
 
 If design looks too plain:
--> increase depth
--> enhance background
--> enrich cards
+-> Add radial focus behind focal element
+-> Enrich background with texture layer
+-> Deepen card shadows with layered system
+-> Add directional gradient fills to cards
+-> Vary depth between element layers
 
 Do this by visual treatment, not by adding more content.
 
@@ -1413,27 +1622,93 @@ Not like:
 Priority:
 Accuracy > Cleanliness > Aesthetics
 
-STEP 11.5: CREATIVE FREEDOM LAYER (CRITICAL)
+STEP 11.5: VISUAL PERSONALITY LAYER (MANDATORY — APPLIES TO ALL MODES)
 
-If output feels too structured, repetitive, or templated, allow the model to:
-- introduce slight asymmetry
-- vary spacing rhythm
-- simplify or reduce elements
-- shift composition focus
+This system optimizes for correctness, clarity, and structure.
+But high-quality visuals require controlled imperfection to feel human-crafted.
+
+RULE: Every output must violate perfect symmetry in at least one intentional way.
+
+---
+
+ASYMMETRY RULE
+
+Do not mirror left and right zones equally.
+
+Apply one of:
+- Left zone slightly heavier (more elements or larger focal block)
+- Right zone offset or pulled lower
+- One column taller or narrower than the other
+- Focal block placed slightly off-center (not dead center)
+
+NEVER produce a layout where left side = perfect mirror of right side.
+
+---
+
+SPACING RHYTHM RULE
+
+Do not use uniform spacing throughout the canvas.
+
+Apply one of:
+- Tight grouping in one zone, open breathing room in another
+- Progressive spacing: elements start closer, spread wider toward output
+- One gap deliberately wider to create visual pause
+- Cluster + Escape: dense group on one side, isolated element on the other
+
+NEVER space all elements at equal intervals.
+
+---
+
+VISUAL WEIGHT IMBALANCE RULE
+
+One zone or section must feel visually heavier than the rest.
+
+Methods:
+- Larger card or block in one area
+- Stronger shadow or glow on one element only
+- One section with denser content or darker tones
+- Focal element sized 20%-30% larger than surrounding elements
+
+Other sections must recede — they support, not compete.
+
+---
+
+TENSION DIRECTION RULE
+
+The layout must have a directional pull — a sense of motion or intent.
+
+Apply one of:
+- Diagonal emphasis (flow angled slightly, not perfectly horizontal or vertical)
+- Left-heavy entry that releases into open right space
+- Top-heavy weight that trails off toward bottom
+- Asymmetric flow path with a slight curve or bend
+
+NEVER produce a perfectly balanced, tension-free composition.
+
+---
+
+IMPERFECTION INJECTION RULE
+
+Before finalizing, inject exactly one controlled imperfection:
+- One element slightly larger than grid would suggest
+- One gap slightly wider than the rest
+- One card with a stronger accent than its peers
+- One section that breaks the dominant alignment direction
+
+This imperfection must feel intentional, not accidental.
+
+---
+
+ANTI-TEMPLATE ENFORCEMENT
+
+If the output looks like it could be produced by a drag-and-drop template tool:
+-> Add asymmetry
+-> Break one alignment
+-> Shift one focal element off-center
+-> Increase one visual weight
 
 Goal:
-Design must feel human-crafted, not template-generated.
-
-STEP 11.6: DESIGN PERSONALITY LAYER
-
-Inject one:
-- Slight asymmetry
-- Uneven spacing rhythm
-- Directional tension
-- Controlled visual imbalance
-
-Goal:
-Human-crafted feel, not template-generated.
+Design must feel like it was crafted by a senior designer who made deliberate choices — not generated from a grid.
 
 STEP 12: OUTPUT GENERATION
 
@@ -1481,8 +1756,8 @@ Visual Elements:
 - Define hierarchy importance
 
 Spacing and Alignment:
-- Define spacing consistency
-- Define alignment logic
+- Describe spacing intent (strong zone separation, breathable grouping, tight inner spacing)
+- Define alignment logic and visual rhythm direction
 
 Whitespace:
 - Keep 30%-40% empty space
@@ -1521,10 +1796,25 @@ FINAL VALIDATION CHECKLIST
 - Canvas keeps meaningful whitespace
 - Comparison sides are not perfectly mirrored
 - Center comparison column carries a meaningful insight
-- One dominant focal anchor is clearly visible
+- One dominant focal anchor is clearly visible and unmistakably the core of the design
+- Focal element is noticeably larger than surrounding elements
+- Focal element has glow + stronger shadow applied — no other element shares this treatment
+- Background behind focal element has subtle radial bloom or soft emphasis
+- Viewer can feel "this is the core system" before reading any label
 - Summary traits use micro cards, not flat text lines
-- Background is enriched, not flat
-- Cards have depth and tactile treatment
+- Layout is NOT perfectly symmetrical — at least one intentional asymmetry is present
+- Spacing rhythm is NOT uniform — at least one deliberate spacing variation exists
+- One zone is visually heavier than the rest
+- Design does not resemble a drag-and-drop template output
+- Background is enriched, not flat — has directional gradient + texture layer + focal depth feature
+- Radial focus bloom is present behind the focal element
+- No group of similar elements uses identical size and visual weight
+- At least one hierarchy variation pattern applied (primary/secondary or importance gradient)
+- Cards have depth and tactile treatment — shadow, gradient fill, no flat white
+- Shadow system is layered — focal card deepest, secondary cards lighter, background panels flattest
+- All card fills use subtle gradients — no pure flat white fills
+- Canvas has at least 3 distinct visual depth layers (background → panels → cards → focal)
+- Depth variation is present — not all cards of the same type look identical
 - Visual richness feels premium without clutter
 - Orientation matches explicit user request
 - Resolution matches orientation mapping
